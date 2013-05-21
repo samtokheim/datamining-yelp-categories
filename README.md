@@ -33,20 +33,8 @@ To build up clusters of similar businesses based on the text of their reviews, w
 We have successfully developed a proof-of-concept for a process of Yelp business sub-categorization through textual data mining. We have implemented a successful test case in which we created a set of reviews, half of which are for Chinese restaurants and half for Indian restaurants. As expected, our process successfully analyzed the text content to assign each business into a cluster representing its natural category (see Figure 1 below). While we were not able to successfully deploy the subcategorization tool for use within categories, this would be achievable with 1) greater computing power, making larger data sets and thus richer word comparisons possible, 2) a stronger implementation of the stopping case, which currently relies on trial-and-error, and 3) greater filtering of common words, including words frequently used in Yelp reviews, from the word sets. With more time, we would be able to implement these changes, and have the chance to experiment with running our program on more interesting and complete data sets.
 
 
-![Figure 1](/results2.jpg)
+![Figure 1](/results/results2.jpg)
 Figure 1: Resulting word lists after cluster creation using test data. Cluster 170 indicates its mostfrequently seen review words were “naan”, “masala”, and “tikka” clearly indicating Indian restaurants whereas cluster 178 shows “mein” and “dumplings”, associated with Chinese restaurants.
 
 ##Related work 
 In order to remove commonly used words from the review word sets, we used a list of the 5,000 top words used in the Corpus of Contemporary American English. This list is available for download for free from http://www.wordfrequency.info/. A list of stop words was pulled from http://norm.al/2009/04/14/list-of-english-stop-words/.
-
-##Steps for Recreating our Work
-1. Get the code from our Github repository at: https://github.com/samtokheim/dm-final
-2. Navigate to the /code directory
-3. Run: $ python get_reviews_data.py
-4. At the prompt type in a Yelp category of your choosing
-5. The results will be output to ‘reviews_data.[category].json’
-6. Run: $ python business_sim.py < reviews_data.[category].json > biz_results.[category].txt
-7. Run: $ agglom_clusters.py
-
-##Shortcut to use test data
-After step 2 go directly to step 7 and run agglom_clusters.py. At the prompt, enter test data file, 'biz_results.indianchinese.txt'.
