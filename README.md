@@ -1,6 +1,6 @@
 #Mining Yelp Reviews to Detect Sub-Categories
 -------------------------------------------------------
-**Ryan Baker and Sam Tokheim**<br />
+**[Ryan Baker](https://www.linkedin.com/in/ryanfbaker) and [Sam Tokheim](https://www.linkedin.com/in/samtokheim) **<br />
 May 16, 2013
 
 ##Introduction
