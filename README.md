@@ -1,6 +1,6 @@
 #Mining Yelp Reviews to Detect Sub-Categories
 -------------------------------------------------------
-**[Ryan Baker](https://www.linkedin.com/in/ryanfbaker) and [Sam Tokheim](https://www.linkedin.com/in/samtokheim) **<br />
+**Ryan Baker and Sam Tokheim**<br />
 May 16, 2013
 
 ##Introduction
@@ -38,3 +38,12 @@ Figure 1: Resulting word lists after cluster creation using test data. Cluster 1
 
 ##Related work 
 In order to remove commonly used words from the review word sets, we used a list of the 5,000 top words used in the Corpus of Contemporary American English. This list is available for download for free from http://www.wordfrequency.info/. A list of stop words was pulled from http://norm.al/2009/04/14/list-of-english-stop-words/.
+
+##Contact Us
+Ryan Baker
+* www.linkedin.com/in/ryanfbaker
+* www.github.com/flux3000
+ 
+Sam Tokheim
+* www.linkedin.com/in/samtokheim
+* www.github.com/samtokheim
